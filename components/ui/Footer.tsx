@@ -105,6 +105,16 @@ export default function Footer() {
                   Documentation
                 </Link>
               </li>
+            {/* Add Email Section */}
+            <li>
+              <Link 
+                href="mailto:support@draftdeck.ai" 
+                className="text-sm sm:text-base text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300 flex items-center justify-center sm:justify-start gap-2"
+              >
+                <Mail className="h-4 w-4" />
+                Email Support
+                </Link>
+              </li>
               <li>
                 <Link href="/about" className="text-sm sm:text-base text-muted-foreground hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-300">
                   About Us
